@@ -1,7 +1,15 @@
+.header {
+    margin: auto;
+    padding-bottom: 3em;
+    text-align: center;
+}
+
+.header-img {
+    width: 100%;
+}
+
 .header-container {
-    background-image: url("./imagenes/Menu.png" alt="Imagen baner");
     flex-wrap: wrap;
-    width: 800px;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -9,11 +17,15 @@
     justify-content: center;
     align-items: baseline;
     text-align: center;
+}
+
+.news-container {
+    margin: auto;
+    padding-bottom: 1.5em;
 }
 
 #services {
-    height: 800px;
-    width: 800px;
+    width: 95%;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -21,26 +33,33 @@
     justify-content: center;
     align-items: baseline;
     text-align: center;
+    padding-bottom: 2.5em;
+    padding-top: 2.5em;
 }
 
 #team {
-    display: flex;
-    margin: auto;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-}
-
-#news {
-    height: 800px;
-    width: 800px;
-    margin: auto;
+    width: 90%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    align-items: baseline;
     justify-content: center;
+    align-items: baseline;
     text-align: center;
+    margin: auto;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+}
+
+#news {
+    width: 65%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-bottom: 2.5em;
+    padding-top: 2.5em;
+    flex-wrap: nowrap;
+    align-items: baseline;
 }
 
 ul#menu li {
@@ -56,10 +75,17 @@ h1 {
     text-align: center;
     font-size: 4em;
     font-family: 'Alatsi', sans-serif;
-    color: #4c24d8;
+    color: #0070ff;
 }
 
 h2 {
+    font-family: 'Arsenal', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    color: #ffffff;
+}
+
+h3 {
     font-family: 'Alatsi', sans-serif;
     font-size: 2em;
     text-align: center;
@@ -67,34 +93,54 @@ h2 {
 
 p {
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
     font-family: 'Arsenal', sans-serif;
     color: #5f5f5f;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
 
 a {
     font-family: 'Alatsi', sans-serif;
     font-size: 1.3em;
+    color: #0070ff;
+}
+
+#Titles {
+    background-color: #1a56f3;
 }
 
 .contacto {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-family: 'Alatsi', sans-serif;
-    color: #8500af;
+    color: #657e93;
 }
 
 .nota {
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.4em;
     font-family: 'Alatsi', sans-serif;
-    color: #008caf;
+    color: #ffffff;
+}
+
+.nota-container {
+    background-color: #a5a5a5;
+    padding: 1em;
 }
 
 .img-news {
-    max-width: 85%;
+    max-width: 95%;
+    max-height: 25em;
 }
 
-.profile--pics {
-    max-width: 25%;
+.profile-pics {
+    max-width: 100%;
+    max-height: 15em;
+}
+
+.link-git {
+    text-align: center;
+    font-size: 1.8em;
+    font-family: 'Arsenal', sans-serif;
 }
